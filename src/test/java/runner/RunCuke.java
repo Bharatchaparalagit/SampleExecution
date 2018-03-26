@@ -14,6 +14,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 @CucumberOptions(features = {"src/test/resources/features/ApplicationOnboarding.feature"} ,
 				monochrome = true,
 				glue = "steps",
+				dryRun = false,
 				tags = "@Application-Onboarding",
 				plugin= {"html:target/site/cucumber-report-html",
 						"json:target/cucumber.json",
@@ -29,14 +30,14 @@ public class RunCuke extends AbstractTestNGCucumberTests{
 		SimpleDateFormat sdf = new SimpleDateFormat ("ddMMyyyy_hhmmss");
 		Date curDate = new Date();
 		String strDate=sdf.format(curDate);
-		String fileName = System.getProperty("user.dir")+ "\\target\\Extent_Reports\\" + strDate +".html";
+		String fileName = System.getProperty("C:\\Users\\Saurya\\workspace\\Cnet\\Matilda\\target\\Extent_Reports\\" + strDate +".html");
 		File newFile = new File(fileName);
 		ExtentCucumberFormatter.initiateExtentCucumberFormatter(newFile,false);
 		
 		ExtentCucumberFormatter.loadConfig(new File("src/test/resources/extent-config.xml"));
 		
 		ExtentCucumberFormatter.addSystemInfo("Browser Name", "Chrome");
-		ExtentCucumberFormatter.addSystemInfo("Browser Version", "v57.0");
+		ExtentCucumberFormatter.addSystemInfo("Browser Version", "v65.0");
 		
 	}
 }

@@ -10,6 +10,11 @@ import utils.TestBase;
 
 public class HomePage extends TestBase {
 	
+	//Initializing the page objects
+		public HomePage(){
+			PageFactory.initElements(driver, this);
+		}
+	
 	@FindBy(how=How.XPATH,using= "//*[@id='filter']")
 	public WebElement filterNavigator;
 	
@@ -25,11 +30,7 @@ public class HomePage extends TestBase {
 	@FindBy(how=How.ID,using="try_it_catalog")
 	public WebElement tryItButton;
 	
-	//Initializing the page objects
-	public HomePage(){
-		PageFactory.initElements(driver, this);
-	}
-	
+		
 	public String verifyHomePageTitle(){
 		return driver.getTitle();
 	}

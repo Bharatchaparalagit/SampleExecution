@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="steps.ApplicationOnboardingSteps"/>
+      <class name="pages.actions.LoginPageActions"/>
+      <class name="steps.AfterActions"/>
+      <class name="pages.actions.HomePageActions"/>
+      <class name="pages.locators.HomePage"/>
+      <class name="utils.TestBase"/>
+      <class name="pages.locators.LoginPage"/>
+      <class name="runner.RunCuke"/>
+      <class name="steps.BeforeActions"/>
+    </classes>
+  </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="runner.RunCuke">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="setup"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- runner.RunCuke -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

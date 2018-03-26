@@ -20,7 +20,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 		
 		try{
 			prop=new Properties();
-			FileInputStream fis = new FileInputStream("C:\\Users\\Saurya\\workspace\\Cnet\\Matilda\\src\\main\\java\\config\\config.properties");
+			FileInputStream fis = new FileInputStream("\\Users\\Saurya\\workspace\\Cnet\\Matilda\\src\\main\\java\\config\\config.properties");
 			prop.load(fis);
 		} catch(IOException e){
 			e.getMessage();
@@ -44,7 +44,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 		}
 		
 	
-		final int TIMEOUT=30;
+		final int TIMEOUT=20;
 		final int PAGE_LOAD_TIMEOUT=30;
 	
 		driver.manage().window().maximize();

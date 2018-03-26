@@ -13,9 +13,8 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 471735,
-  "error_message": "java.lang.NullPointerException\r\n\tat utils.TestBase.initialization(TestBase.java:32)\r\n\tat steps.BeforeActions.setUp(BeforeActions.java:11)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:202)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)\r\n\tat cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)\r\n\tat cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)\r\n\tat cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:643)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:782)\r\n\tat org.testng.TestRunner.run(TestRunner.java:632)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:366)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:268)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1169)\r\n\tat org.testng.TestNG.run(TestNG.java:1064)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)\r\n",
-  "status": "failed"
+  "duration": 6242180546,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 6,
@@ -405,19 +404,22 @@ formatter.match({
   "location": "ApplicationOnboardingSteps.User_is_on_the_Login_page_of_the_application()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 6038488458,
+  "status": "passed"
 });
 formatter.match({
   "location": "ApplicationOnboardingSteps.switch_to_mainframeone()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 39080,
+  "status": "passed"
 });
 formatter.match({
   "location": "ApplicationOnboardingSteps.verify_Login_Page_title_is_ServiceNow()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 35528,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -433,19 +435,22 @@ formatter.match({
   "location": "ApplicationOnboardingSteps.user_enters_the_username_and_password_as_and(String,String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3831911,
+  "status": "passed"
 });
 formatter.match({
   "location": "ApplicationOnboardingSteps.user_clicks_on_login_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 36318,
+  "status": "passed"
 });
 formatter.match({
   "location": "ApplicationOnboardingSteps.verify_User_is_on_homepage_by_validating_the_title()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 27633,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -457,37 +462,43 @@ formatter.match({
   "location": "ApplicationOnboardingSteps.user_navigates_to_Filter_Navigator_search_box_and_enter(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 75004,
+  "status": "passed"
 });
 formatter.match({
   "location": "ApplicationOnboardingSteps.switch_to_mainframetwo()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 28423,
+  "status": "passed"
 });
 formatter.match({
   "location": "ApplicationOnboardingSteps.user_clicks_on_the_Order_Guides_link()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 38292,
+  "status": "passed"
 });
 formatter.match({
   "location": "ApplicationOnboardingSteps.user_clicks_on_the_End_to_End_Deployment_link()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 29212,
+  "status": "passed"
 });
 formatter.match({
   "location": "ApplicationOnboardingSteps.user_clicks_on_the_Try_It_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 27633,
+  "status": "passed"
 });
 formatter.match({
   "location": "ApplicationOnboardingSteps.verify_the_user_is_in_Describe_Needs_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 35923,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -499,13 +510,15 @@ formatter.match({
   "location": "ApplicationOnboardingSteps.user_select_the_project(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 88031,
+  "status": "passed"
 });
 formatter.match({
   "location": "ApplicationOnboardingSteps.switch_to_mainframethree()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 27633,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -521,7 +534,8 @@ formatter.match({
   "location": "ApplicationOnboardingSteps.user_select_the_and(String,String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 92768,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -533,7 +547,8 @@ formatter.match({
   "location": "ApplicationOnboardingSteps.user_enters_the(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 59608,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -545,7 +560,8 @@ formatter.match({
   "location": "ApplicationOnboardingSteps.user_select_the(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 65135,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -557,13 +573,15 @@ formatter.match({
   "location": "ApplicationOnboardingSteps.user_select_the_existing_key_pair_radio_button_and_enter_the(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 63162,
+  "status": "passed"
 });
 formatter.match({
   "location": "ApplicationOnboardingSteps.user_select_the_webserver_checkbox()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 25659,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -575,7 +593,8 @@ formatter.match({
   "location": "ApplicationOnboardingSteps.user_select_the_containerized_platform_for_web_server_as(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 71056,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -587,7 +606,8 @@ formatter.match({
   "location": "ApplicationOnboardingSteps.user_select_Container_Platform(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 58819,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -599,13 +619,15 @@ formatter.match({
   "location": "ApplicationOnboardingSteps.user_select_Application_Type(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 95532,
+  "status": "passed"
 });
 formatter.match({
   "location": "ApplicationOnboardingSteps.user_select_the_Database_server_checkbox()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 35133,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -617,7 +639,8 @@ formatter.match({
   "location": "ApplicationOnboardingSteps.user_select_the_containerized_platform_for_Database_server_as(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 108558,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -629,19 +652,22 @@ formatter.match({
   "location": "ApplicationOnboardingSteps.user_select_the_container_platform(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 76583,
+  "status": "passed"
 });
 formatter.match({
   "location": "ApplicationOnboardingSteps.click_Choose_options_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 37897,
+  "status": "passed"
 });
 formatter.match({
   "location": "ApplicationOnboardingSteps.verify_the_user_is_in_webserver_deployment_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3719010,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -653,7 +679,8 @@ formatter.match({
   "location": "ApplicationOnboardingSteps.user_enters(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 92768,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -665,7 +692,8 @@ formatter.match({
   "location": "ApplicationOnboardingSteps.user_enter(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 112901,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -677,7 +705,8 @@ formatter.match({
   "location": "ApplicationOnboardingSteps.user_enter_operating_system_to_be_installed(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 90005,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -689,7 +718,8 @@ formatter.match({
   "location": "ApplicationOnboardingSteps.user_enter_server_size(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 82899,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -701,7 +731,8 @@ formatter.match({
   "location": "ApplicationOnboardingSteps.user_select_the_additional_storage(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 89610,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -725,13 +756,15 @@ formatter.match({
   "location": "ApplicationOnboardingSteps.user_enter_the_Storage_type_Bucket_name_and_EC_Mount_path(String,String,int,String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1800489,
+  "status": "passed"
 });
 formatter.match({
   "location": "ApplicationOnboardingSteps.user_selects_the_use_existing_network_radiobutton()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 35923,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -743,13 +776,15 @@ formatter.match({
   "location": "ApplicationOnboardingSteps.user_select_the_existing_network(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 298042,
+  "status": "passed"
 });
 formatter.match({
   "location": "ApplicationOnboardingSteps.user_select_the_use_existing_security_group_radiobutton()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 47766,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -761,7 +796,8 @@ formatter.match({
   "location": "ApplicationOnboardingSteps.user_select_the_security_group(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 90794,
+  "status": "passed"
 });
 formatter.match({});
 formatter.result({
@@ -1086,8 +1122,7 @@ formatter.result({
   "status": "skipped"
 });
 formatter.after({
-  "duration": 4258249,
-  "error_message": "java.lang.NullPointerException\r\n\tat steps.AfterActions.teardown(AfterActions.java:19)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)\r\n\tat cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)\r\n\tat cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:643)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:782)\r\n\tat org.testng.TestRunner.run(TestRunner.java:632)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:366)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:268)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1169)\r\n\tat org.testng.TestNG.run(TestNG.java:1064)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)\r\n",
-  "status": "failed"
+  "duration": 1151621999,
+  "status": "passed"
 });
 });

@@ -6,9 +6,8 @@
         "before": [
           {
             "result": {
-              "duration": 471735,
-              "error_message": "java.lang.NullPointerException\r\n\tat utils.TestBase.initialization(TestBase.java:32)\r\n\tat steps.BeforeActions.setUp(BeforeActions.java:11)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:202)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)\r\n\tat cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)\r\n\tat cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)\r\n\tat cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:643)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:782)\r\n\tat org.testng.TestRunner.run(TestRunner.java:632)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:366)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:268)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1169)\r\n\tat org.testng.TestNG.run(TestNG.java:1064)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)\r\n",
-              "status": "failed"
+              "duration": 6242180546,
+              "status": "passed"
             },
             "match": {
               "location": "BeforeActions.setUp()"
@@ -22,9 +21,8 @@
         "after": [
           {
             "result": {
-              "duration": 4258249,
-              "error_message": "java.lang.NullPointerException\r\n\tat steps.AfterActions.teardown(AfterActions.java:19)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)\r\n\tat cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)\r\n\tat cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:643)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:782)\r\n\tat org.testng.TestRunner.run(TestRunner.java:632)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:366)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:268)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1169)\r\n\tat org.testng.TestNG.run(TestNG.java:1064)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)\r\n",
-              "status": "failed"
+              "duration": 1151621999,
+              "status": "passed"
             },
             "match": {
               "location": "AfterActions.teardown(Scenario)"
@@ -36,7 +34,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 6038488458,
+              "status": "passed"
             },
             "line": 7,
             "name": "User is on the Login page of the application",
@@ -47,7 +46,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 39080,
+              "status": "passed"
             },
             "line": 8,
             "name": "Switch to mainframeone",
@@ -58,7 +58,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 35528,
+              "status": "passed"
             },
             "line": 9,
             "name": "Verify Login Page title is ServiceNow",
@@ -69,7 +70,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3831911,
+              "status": "passed"
             },
             "line": 10,
             "name": "User enters the username and password as \"\u003cUsername\u003e\" and \"\u003cPassword\u003e\"",
@@ -90,7 +92,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 36318,
+              "status": "passed"
             },
             "line": 11,
             "name": "User clicks on login button",
@@ -101,7 +104,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 27633,
+              "status": "passed"
             },
             "line": 12,
             "name": "Verify User is on homepage by validating the title",
@@ -112,7 +116,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 75004,
+              "status": "passed"
             },
             "line": 13,
             "name": "User navigates to Filter Navigator search box and enter \"\u003cFilterValue\u003e\"",
@@ -129,7 +134,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 28423,
+              "status": "passed"
             },
             "line": 14,
             "name": "Switch to mainframetwo",
@@ -140,7 +146,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 38292,
+              "status": "passed"
             },
             "line": 15,
             "name": "User clicks on the Order Guides link",
@@ -151,7 +158,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 29212,
+              "status": "passed"
             },
             "line": 16,
             "name": "User clicks on the End to End Deployment link",
@@ -162,7 +170,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 27633,
+              "status": "passed"
             },
             "line": 17,
             "name": "User clicks on the Try It button.",
@@ -173,7 +182,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 35923,
+              "status": "passed"
             },
             "line": 18,
             "name": "Verify the user is in Describe Needs page",
@@ -184,7 +194,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 88031,
+              "status": "passed"
             },
             "line": 19,
             "name": "User select the project \"\u003cProject\u003e\"",
@@ -201,7 +212,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 27633,
+              "status": "passed"
             },
             "line": 20,
             "name": "Switch to mainframethree",
@@ -212,7 +224,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 92768,
+              "status": "passed"
             },
             "line": 21,
             "name": "User select the \"\u003cEnvironment Information\u003e\" and \"\u003cEnvironment Type\u003e\"",
@@ -233,7 +246,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 59608,
+              "status": "passed"
             },
             "line": 22,
             "name": "User enters the \"\u003cEnvironment Name\u003e\"",
@@ -250,7 +264,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 65135,
+              "status": "passed"
             },
             "line": 23,
             "name": "User select the \"\u003cCloud Platform\u003e\"",
@@ -267,7 +282,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 63162,
+              "status": "passed"
             },
             "line": 24,
             "name": "User select the existing key pair radio button and enter the \"\u003ckeypair\u003e\"",
@@ -284,7 +300,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 25659,
+              "status": "passed"
             },
             "line": 25,
             "name": "User select the webserver checkbox",
@@ -295,7 +312,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 71056,
+              "status": "passed"
             },
             "line": 26,
             "name": "User select the containerized platform for web server as \"\u003cContainerized platform\u003e\"",
@@ -312,7 +330,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 58819,
+              "status": "passed"
             },
             "line": 27,
             "name": "User select Container Platform \"\u003cContainerPlatform\u003e\"",
@@ -329,7 +348,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 95532,
+              "status": "passed"
             },
             "line": 28,
             "name": "User select Application Type \"\u003cApplicationType\u003e\"",
@@ -346,7 +366,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 35133,
+              "status": "passed"
             },
             "line": 29,
             "name": "User select the Database server checkbox",
@@ -357,7 +378,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 108558,
+              "status": "passed"
             },
             "line": 30,
             "name": "User select the containerized platform for Database server as \"\u003cContainerized platform\u003e\"",
@@ -374,7 +396,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 76583,
+              "status": "passed"
             },
             "line": 31,
             "name": "User select the container platform \"\u003cContainerPlatform\u003e\"",
@@ -391,7 +414,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 37897,
+              "status": "passed"
             },
             "line": 32,
             "name": "Click Choose options button",
@@ -402,7 +426,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3719010,
+              "status": "passed"
             },
             "line": 33,
             "name": "Verify the user is in webserver deployment page",
@@ -413,7 +438,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 92768,
+              "status": "passed"
             },
             "line": 34,
             "name": "User enters \"\u003cservice Requested\u003e\"",
@@ -430,7 +456,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 112901,
+              "status": "passed"
             },
             "line": 35,
             "name": "user enter \"\u003ccluster name\u003e\"",
@@ -447,7 +474,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 90005,
+              "status": "passed"
             },
             "line": 36,
             "name": "user enter operating system to be installed \"\u003cOperating system\u003e\"",
@@ -464,7 +492,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 82899,
+              "status": "passed"
             },
             "line": 37,
             "name": "User enter server size \"\u003cServerSizeRequested\u003e\"",
@@ -481,7 +510,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 89610,
+              "status": "passed"
             },
             "line": 38,
             "name": "User select the additional storage \"\u003cStorage\u003e\"",
@@ -498,7 +528,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1800489,
+              "status": "passed"
             },
             "line": 39,
             "name": "user enter the Storage type \"\u003cStorageType\u003e\" Bucket name \"\u003cBucketName\u003e\" and EC2 Mount path \"\u003cEc2MountPath\u003e\"",
@@ -527,7 +558,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 35923,
+              "status": "passed"
             },
             "line": 40,
             "name": "User selects the use existing network radiobutton",
@@ -538,7 +570,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 298042,
+              "status": "passed"
             },
             "line": 41,
             "name": "User select the existing network \"\u003cNetworkName\u003e\"",
@@ -555,7 +588,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 47766,
+              "status": "passed"
             },
             "line": 42,
             "name": "User select the use existing security group radiobutton",
@@ -566,7 +600,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 90794,
+              "status": "passed"
             },
             "line": 43,
             "name": "user select the security group \"\u003csecurity group\u003e\"",

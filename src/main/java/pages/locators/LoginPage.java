@@ -9,30 +9,28 @@ import utils.TestBase;
 
 public class LoginPage extends TestBase {
 	
+	//Initializing the page objects
+	
+		public LoginPage(){
+			PageFactory.initElements(driver, this);
+					
+		}
+	
 	@FindBy(how=How.ID,using ="gsft_main")
 	public WebElement switchToMainframe;
 	
-	@FindBy(how=How.ID,using ="user_name")
+	@FindBy(how=How.XPATH,using ="//*[@id='user_name']")
 	public WebElement userName;
 	
-	@FindBy(how=How.ID,using ="user_password")
+	@FindBy(how=How.XPATH,using ="//*[@id='user_password']")
 	public WebElement passWord;
 	
-	@FindBy(how=How.ID,using ="sysverb_login")
+	@FindBy(how=How.XPATH,using ="//*[@id='sysverb_login']")	
 	public WebElement loginButton;
-	
-	
-	
-	//Initializing the page objects
-	
-	public LoginPage(){
-		PageFactory.initElements(driver, this);
-				
-	}
 	
 	//Actions
 	
-	public static void switchToMainframe(){
+	public void switchToMainframe(){
 		driver.switchTo().frame("gsft_main");
 		
 	}

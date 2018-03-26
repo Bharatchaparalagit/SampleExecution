@@ -1,45 +1,54 @@
 package steps;
+import static org.testng.Assert.assertEquals;
 
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
+import pages.locators.HomePage;
+import pages.locators.LoginPage;
 import utils.TestBase;
 
-public class ApplicationOnboardingSteps extends TestBase{
-	
+public class ApplicationOnboardingSteps extends TestBase {
+		
+	LoginPage loginpage = new LoginPage();
+	HomePage homepage = new HomePage();
+		
 	@Given("User is on the Login page of the application$")
 	public void User_is_on_the_Login_page_of_the_application() throws Throwable {
-	    TestBase.initialization();
-		
-		
+	    BeforeActions.setUp();
+				
 	}
 
 	@And("^Switch to mainframeone$")
 	public void switch_to_mainframeone() throws Throwable {
-		
+		loginpage.switchToMainframe();
 		
 	}
 
-	@And("^Verify Login Page title is ServiceNow$")
-	public void verify_Login_Page_title_is_ServiceNow() throws Throwable {
-	   
-	    
+	@And("^Verify Login Page title$")
+	public void verify_Login_Page_title() throws Throwable {
+	   String loginPageTitle = loginpage.validateLoginPageTite();
+	    assertEquals("ServiceNow",loginPageTitle);
 	}
 
 	@Then("^User enters the username and password as \"([^\"]*)\" and \"([^\"]*)\"$")
 	public void user_enters_the_username_and_password_as_and(String Username, String Password) throws Throwable {
-	    
+		loginpage.userName.clear();
+	    loginpage.enterUserName(Username);
+	    loginpage.passWord.clear();
+	    loginpage.enterPassword(Password);
 		
 	}
 
 	@And("^User clicks on login button$")
 	public void user_clicks_on_login_button() throws Throwable {
-	    
+	    loginpage.clickLoginButton();
 	}
 
 	@And("^Verify User is on homepage by validating the title$")
 	public void verify_User_is_on_homepage_by_validating_the_title() throws Throwable {
-	    
+	  String homePageTitle =  homepage.verifyHomePageTitle();
+	  assertEquals("System Administration | ServiceNow",homePageTitle);
 	}
 
 	@Then("^User navigates to Filter Navigator search box and enter \"([^\"]*)\"$")
@@ -92,8 +101,8 @@ public class ApplicationOnboardingSteps extends TestBase{
 	    
 	}
 
-	@And("^User select the \"([^\"]*)\"$")
-	public void user_select_the(String arg1) throws Throwable {
+	@And("^User select the platform \"([^\"]*)\"$")
+	public void user_select_the_platform(String arg1) throws Throwable {
 	    
 	}
 
@@ -197,13 +206,13 @@ public class ApplicationOnboardingSteps extends TestBase{
 	    
 	}
 
-	@And("^user selects the \"([^\"]*)\"$")
-	public void user_selects_the(String arg1) throws Throwable {
+	@And("^user selects the info \"([^\"]*)\"$")
+	public void user_selects_the_info(String arg1) throws Throwable {
 	    
 	}
 	
-	@And("^user selected the \"([^\"]*)\"$")
-	public void user_selected_the(String arg1) throws Throwable {
+	@And("^user select the \"([^\"]*)\"$")
+	public void user_select_the(String arg1) throws Throwable {
 	   
 	}
 
@@ -224,6 +233,71 @@ public class ApplicationOnboardingSteps extends TestBase{
 
 	@And("^user select the service Requested \"([^\"]*)\"$")
 	public void user_select_the_service_Requested(String arg1) throws Throwable {
+	    
+	}
+	
+	@And("^user enter cluster \"([^\"]*)\"$")
+	public void user_enter_cluster(String arg1) throws Throwable {
+	    
+	}
+
+	@And("^user enter operating system to install \"([^\"]*)\"$")
+	public void user_enter_operating_system_to_install(String arg1) throws Throwable {
+	    
+	}
+
+	@And("^User enter server size requested \"([^\"]*)\"$")
+	public void user_enter_server_size_requested(String arg1) throws Throwable {
+	    
+	}
+
+	@And("^User selects the additional storage \"([^\"]*)\"$")
+	public void user_selects_the_additional_storage(String arg1) throws Throwable {
+	    
+	}
+
+	@And("^user enters the Storage type \"([^\"]*)\" Bucket name \"([^\"]*)\" and EC(\\d+) Mount path \"([^\"]*)\"$")
+	public void user_enters_the_Storage_type_Bucket_name_and_EC_Mount_path(String arg1, String arg2, int arg3, String arg4) throws Throwable {
+	    
+	}
+
+	@And("^User select the use existing network radiobutton$")
+	public void user_select_the_use_existing_network_radiobutton() throws Throwable {
+	    
+	}
+
+	@And("^User selects the existing network \"([^\"]*)\"$")
+	public void user_selects_the_existing_network(String arg1) throws Throwable {
+	    
+	}
+
+	@And("^User selects the use existing security group radiobutton$")
+	public void user_selects_the_use_existing_security_group_radiobutton() throws Throwable {
+	    
+	}
+
+	@And("^user selects the security group \"([^\"]*)\"$")
+	public void user_selects_the_security_group(String arg1) throws Throwable {
+	    
+	}
+
+	@And("^user selects the \"([^\"]*)\"$")
+	public void user_selects_the(String arg1) throws Throwable {
+	    
+	}
+	
+	@And("^user selected the \"([^\"]*)\"$")
+	public void user_selected_the(String arg1) throws Throwable {
+	   
+	}
+
+	@And("^User selects the Metric Type as \"([^\"]*)\" and Units \"([^\"]*)\"$")
+	public void user_selects_the_Metric_Type_as_and_Units(String arg1, String arg2) throws Throwable {
+	    
+	}
+
+	@And("^user clicks on Next tab button$")
+	public void user_clicks_on_Next_tab_button() throws Throwable {
 	    
 	}
 
