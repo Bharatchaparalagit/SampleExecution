@@ -30,7 +30,7 @@ public class RunCuke extends AbstractTestNGCucumberTests{
 		SimpleDateFormat sdf = new SimpleDateFormat ("ddMMyyyy_hhmmss");
 		Date curDate = new Date();
 		String strDate=sdf.format(curDate);
-		String fileName = System.getProperty("C:\\Users\\Saurya\\workspace\\Cnet\\Matilda\\target\\Extent_Reports\\" + strDate +".html");
+		String fileName = System.getProperty("C:\\Users\\cnet20\\eclipse-workspace\\Matilda\\target\\Extent_Reports\\" + strDate +".html");
 		File newFile = new File(fileName);
 		ExtentCucumberFormatter.initiateExtentCucumberFormatter(newFile,false);
 		

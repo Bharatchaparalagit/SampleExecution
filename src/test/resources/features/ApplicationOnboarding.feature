@@ -1,8 +1,8 @@
-@Application-Onboarding
+@Deployment
 Feature: Acceptance testing to validate the Application Onboarding
-  Validate whether the application onboarding flow is working fine with acceptance testing
+  Validate whether the application onboarding flow is working fine with acceptance criteria
 
-  @Application-Onboarding-flow
+  @Deployment-Orderflow
   Scenario Outline: Validate the Application onboarding order flow
     Given User is on the Login page of the application
     And Switch to mainframeone
@@ -42,7 +42,7 @@ Feature: Acceptance testing to validate the Application Onboarding
     And User select the use existing security group radiobutton
     And user select the security group "<security group>"
     And user selects the info "<Monitoring>"
-    And User select the "<Auto Scaling>"
+    And User select the "<AutoScaling>"
     And User select the Metric Type as "<MetricType>" and Units "<Units>"
     And user clicks the Next tab button
     Then Verify the Database server Deployment text is displayed
@@ -57,7 +57,7 @@ Feature: Acceptance testing to validate the Application Onboarding
     And User selects the use existing security group radiobutton
     And user selects the security group "<security group>"
     And user selects the "<Monitoring>"
-    And User selected the "<Auto Scaling>"
+    And User selected the "<AutoScaling>"
     And User selects the Metric Type as "<MetricType>" and Units "<Units>"
     And user clicks on Next tab button
     Then verify the Application deployment tab is displayed

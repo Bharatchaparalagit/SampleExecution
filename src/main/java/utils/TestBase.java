@@ -20,7 +20,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 		
 		try{
 			prop=new Properties();
-			FileInputStream fis = new FileInputStream("\\Users\\Saurya\\workspace\\Cnet\\Matilda\\src\\main\\java\\config\\config.properties");
+			FileInputStream fis = new FileInputStream("C:\\Users\\cnet20\\eclipse-workspace\\Matilda\\src\\main\\java\\config\\config.properties");
 			prop.load(fis);
 		} catch(IOException e){
 			e.getMessage();
