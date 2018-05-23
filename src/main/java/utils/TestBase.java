@@ -27,7 +27,6 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 	}
 	
 }
-	
 	public static void initialization(){
 		String browserName = prop.getProperty("browser");
 		
@@ -42,8 +41,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 			driver= new InternetExplorerDriver();
 			
 		}
-		
-	
+			
 		final int TIMEOUT=20;
 		final int PAGE_LOAD_TIMEOUT=30;
 	
@@ -66,6 +64,6 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 			driver.quit();
 		}
 		
-	}
+}
 		
 }

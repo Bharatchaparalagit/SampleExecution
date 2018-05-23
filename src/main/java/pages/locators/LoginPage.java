@@ -19,13 +19,13 @@ public class LoginPage extends TestBase {
 	@FindBy(how=How.ID,using ="gsft_main")
 	public WebElement switchToMainframe;
 	
-	@FindBy(how=How.XPATH,using ="//*[@id='user_name']")
+	@FindBy(how=How.XPATH,using =".//*[@id='user_name']")
 	public WebElement userName;
 	
-	@FindBy(how=How.XPATH,using ="//*[@id='user_password']")
+	@FindBy(how=How.XPATH,using =".//*[@id='user_password']")
 	public WebElement passWord;
 	
-	@FindBy(how=How.XPATH,using ="//*[@id='sysverb_login']")	
+	@FindBy(how=How.XPATH,using =".//*[@id='sysverb_login']")	
 	public WebElement loginButton;
 	
 	//Actions

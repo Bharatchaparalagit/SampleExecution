@@ -1,0 +1,5 @@
+pages\locators\LoginPage.class
+pages\actions\LoginPageActions.class
+pages\locators\HomePage.class
+pages\actions\HomePageActions.class
+utils\TestBase.class

@@ -33,9 +33,9 @@ public class ApplicationOnboardingSteps extends TestBase {
 
 	@Then("^User enters the username and password as \"([^\"]*)\" and \"([^\"]*)\"$")
 	public void user_enters_the_username_and_password_as_and(String Username, String Password) throws Throwable {
-		loginpage.userName.clear();
+		//loginpage.userName.clear();
 	    loginpage.enterUserName(Username);
-	    loginpage.passWord.clear();
+	    //loginpage.passWord.clear();
 	    loginpage.enterPassword(Password);
 		
 	}
@@ -211,8 +211,8 @@ public class ApplicationOnboardingSteps extends TestBase {
 	    
 	}
 	
-	@And("^user select the \"([^\"]*)\"$")
-	public void user_select_the(String arg1) throws Throwable {
+	@And("^user select the scaling info \"([^\"]*)\"$")
+	public void user_select_the_scaling_info(String arg1) throws Throwable {
 	   
 	}
 
